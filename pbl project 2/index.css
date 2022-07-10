@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+    
+}
+.project {
+    width: 100rem;
+    margin: auto;
+
+}
+header{
+    background-image:  url("./images/piotr-chrobot-6oUsyeYXgTg-unsplash.jpg");
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    background-repeat: no-repeat;}
+
+
+.title{
+    color: #dd0030;
+    float: left;
+    padding: 5px;
+    font-size: 100px;
+    width:200px;
+    list-style:none ;
+    margin-top: 5px;
+    position: fixed;
+    margin-left:25px ;
+    
+
+}
+.nav {
+    
+    list-style: none;
+    margin-top: 50px;
+    margin-left:1200px;
+
+
+}
+.nav li {
+    display: inline-block;
+
+}
+
+.nav li a{
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+
+
+
+}
+.nav li a:hover{
+    background:#fff;
+    color: #333;
+    border-radius: 5px;
+    border:5px solid #fff;
+    
+
+}
+
+.tagline{
+    color: rgb(255, 251, 252);
+    position:absolute;
+    width: 600px;
+    height: 300px;
+    margin:10% 30%;
+    text-align: center;
+    overflow: hidden;
+}
+.tagline h1:hover{
+    
+    color: black;
+    
+}
+.tagline h1{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    
+
+}
+.tagline a{
+    border: 5px solid #fff;
+    border-radius: 4px;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-size: 50px;
+    margin-top: 50px;
+    display: inline-block;
+    color:#fff;
+    margin: 60px;
+    
+}
+.tagline a:hover{
+    background-color: #fff;
+    color: #333;
+    
+}
+
+
+.Contact{
+    color: #fff;
+    position: absoulte;
+    text-align: center;
+   
+    
+    
+
+}
+.contact li{
+   
+    
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+    color:#fff;
+    margin: 20px;
+    padding-left: 200px;
+    padding-top: 500px;
+
+  
+    
+
+}
+.contact a{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+
+}
+
+#ig{
+   color:#fff;
+
+} 
+.FB{
+    color: #0165E1;
+}
+.TW{
+    color:#1D9BF0;
+}
+.LI{
+    color:#0A66C2;
+}
+.Contact a:hover {
+
+    text-decoration: underline;
+
+
+}
+
+
+.title:hover{
+     color: #c210f8;
+}

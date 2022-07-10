@@ -1,0 +1,118 @@
+body
+{
+    height: 200px;
+    background-color: black;
+    background-image:url("justjobimag/")
+}
+ h1{
+  background-color:#fff;
+  padding:12px ;
+  text-align: center;
+  width: 80%;
+  margin: 20px auto;
+
+  
+
+ }
+.table-box
+{
+    margin: 50px auto;
+
+}
+.table-row
+{
+    display: table;
+    width: 80%;
+    margin: 12px auto;
+    font-family: sans-serif;
+   
+    padding: 12px 0;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    box-shadow: 0 1px 4px 0 rgba(0,0,50,0,3);
+}
+
+.table-cell
+{
+    display: table-cell;
+    width: 30%;
+    text-align: center;
+    padding: 4px 0;
+    border-right: 1px solid #d6d4d4;
+    vertical-align: middle;
+}
+
+
+
+.table-head
+{
+    background: #8665f7;
+    box-shadow: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.table-head .table-cell
+{
+    border-right: none;
+}
+.table-row
+{
+  border-left: #FFFFFF;
+  
+}
+
+
+
+ a{
+        border-radius: 4px;
+        background-color: #8665f7;
+        border: none;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 13px;
+        padding: 20px;
+        width: 200px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+        text-decoration: none;
+      }
+      a:hover{
+        
+        background-color: #c04747;
+        padding-right: 25px;
+        opacity: 1;
+        right: 0;
+
+      }
+      
+      a :hover span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+      }
+      
+      a:hover span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+      }
+      
+      .table-cell:hover span {
+        padding-right: 25px;
+      }
+      
+      .table-cell:hover span:after {
+        opacity: 1;
+        right: 0;
+      }
+
+
+
+
+
